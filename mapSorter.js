@@ -13,5 +13,5 @@ let result = `{${[...sortedMap]
   .map(([key, value]) => `${key}=${value}`)
   .join(', ')}}`
 
-// Display the result in the browser (in a div with id "output")
-document.getElementById('output').textContent = 'Map: ' + result
+// Logs the formatted string representation of the sorted map to the console
+console.log('Map: ', result)
